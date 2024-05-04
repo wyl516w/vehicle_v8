@@ -1,3 +1,8 @@
+# 忽略文件夹
+dronevehicle
+runs
+tests 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
