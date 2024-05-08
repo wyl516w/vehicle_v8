@@ -10,7 +10,8 @@ def main(opt):
     model = YOLO(yaml) 
 
     model.info()
-
+    model.forward()
+    print(model)
     results = model.train(data='vehicle.yaml',  # 训练参数均可以重新设置
                         epochs=300, 
                         imgsz=640, 
